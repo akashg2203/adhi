@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Job Applivation Form</title>
+    </head>
+    <body>
+        <h1>Job Application Form</h1>
+        <form method="get" enctype="multipart/form-data">
+        <div>
+            Your Name:
+            <input type="text"  name="text"   size="15" maxlength="25" value="Akash" placeholder="Enter Your Name">
+            <h3> Your Education:</h3>
+            <select name="education">
+                <option value="">Degree</option>
+           <option value="be">B.E</option>
+           <option value="btech">B.Tech.,</option>
+           <option value="bca"> B.C.A</option>
+           <option value="bsc">B.Sc</option>
+        </select> 
+    </div>
+    <div>
+            <p>You Want to apply for the position</p>
+            <select name="position">
+                <option value="">Select Your Interest</option>
+                <option value="fed">Front End Developer</option>
+                <option value="bed">Back End Developer</option>
+                <option value="fsd">Full Stack Developer</option>
+            
+        </select>
+    </div>
+    <br>
+        
+        <div>
+            Your Resume:<br>
+            <input type="file" name="resume">
+            <br>
+            <br>
+           <input type="submit" name ="submit" value="send Details">
+
+        </div>
+
+    </form>
+    </body>
+</html>
